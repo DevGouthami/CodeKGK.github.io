@@ -148,7 +148,7 @@
   
   /* ======= Footer ======= */
   footer {
-      background: linear-gradient(to right, #ffffff, #ABBAAB, #ffffff); /* Example gradient colors */
+      background: linear-gradient(to right, #ffffff, #ffffff, #ffffff); /* Example gradient colors */
       color: #2f5a5b;
       padding: 10px;
       font-size: 20px;
@@ -252,7 +252,7 @@
       padding: 20px;
       margin-left: 5px;
       margin-top: 10px;
-      color: #;
+      color: #7d6131;
       margin-bottom: 10px;
       background: linear-gradient(to left, #ffffff, #ffffff, #ffffff);
       border-radius: 30px;
@@ -264,7 +264,7 @@
   
   h3 {
       text-align: center;
-      color: #a06b40;
+      color: #7d6131;
       font-size: 25px;
   }
   
@@ -288,19 +288,19 @@
   
   /* ======= End Section ======= */
   
-  h1, h2 {color: #a06b40;}
+  h1, h2 {color: #7d6131;}
   
   /*p {color: #555555;}*/
   
   p {
       text-align: left;
-      color: #a06b40;
+      color: #7d6131;
       font-size: 15px;
   }
 
   sp {
     text-align: left;
-    color: #a06b40;
+    color: #7d6131;
     font-size: 15px;
 }
 
