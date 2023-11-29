@@ -55,11 +55,16 @@
   
   .header-left img {
       margin-left: 20px;
-      width: 90px; /* Adjust the width of the image */
+      width: 60px; /* Adjust the width of the image */
       height: auto;
       cursor: pointer;
   }
-  
+
+  hh_t {
+      font-size: 30px;
+      margin-left: 10px;
+  }
+
   h1 {
       color: #333333; /* Dark text for high contrast */
       font-size: 40px;
@@ -249,6 +254,7 @@
   
   /* ======= Section ======= */
   section {
+      font-size
       padding: 20px;
       margin-left: 5px;
       margin-top: 10px;
