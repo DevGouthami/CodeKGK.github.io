@@ -17,6 +17,7 @@
   
 /* ======= Scrolling Text ======= */
  .scrolling-text-container {
+    padding: 5px;
     position: relative; /* Change to relative */
     background-color: #ffff17;
     overflow: hidden;
