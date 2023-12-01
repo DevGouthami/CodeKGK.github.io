@@ -5,17 +5,15 @@
       font-size: 5px;
     }
   }
-  
+
   @font-face {
-    font-family: 'GearsOfPeace';
-    src: url(font/GearsOfPeace.ttf)
-    format('truetype');
+    font-family: 'Timeline';
+    src: url(..font/Timeline.tff) format('truetype');
   }
 
-
   body {
+    font-family: 'Timeline', sans-serif;
     font-size: 10px;
-    font-family: 'GearsOfPeace', sans-serif;
     margin: 0;
     padding: 0;
     background: #2f5a5b;
@@ -23,6 +21,7 @@
   }
   
 /* ======= Scrolling Text ======= */
+
  .scrolling-text-container {
     padding: 5px;
     position: relative; /* Change to relative */
@@ -32,18 +31,14 @@
   
   .scrolling-text {
     white-space: nowrap;
-    animation: scrollLeft 12s linear infinite;
+    animation: scrollLeft 10s linear infinite;
     color: #ff3a01;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   @keyframes scrollLeft {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
   }
   /* ======= End Scrolling Text ======= */
   
